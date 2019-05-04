@@ -1,0 +1,31 @@
+* {
+    font-family: "Montserrat";
+}
+.container {
+	border: 5px solid rgb(111,41,97);
+	border-radius: .5em;
+	padding: 10px;
+	display: flex;
+	/* flex-direction: column; */
+	flex-direction: column-reverse;
+	/* flex-direction: row; */
+	height: 60vh;
+
+	/* ejemplo 2 */
+	/* flex-wrap: wrap; */
+	/* align-content: flex-start; */
+
+	/* ejemplo */
+	/* display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	height: 500px; */
+}
+
+.item {
+	padding: 10px;
+	background-color: rgba(111,41,97,.3);
+	border: 2px solid rgba(111,41,97,.5);
+	justify-content: center;
+	text-align: center;
+}
